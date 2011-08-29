@@ -1,4 +1,4 @@
-This is a simple example game that utilizes MaaSive as it's mechanism for providing high scores. See more at www.MaaSive.co.
+This is a category to MaaSManager along with a MaaSModel subclass that provides one method to track user session.
 
 The MIT License
 
