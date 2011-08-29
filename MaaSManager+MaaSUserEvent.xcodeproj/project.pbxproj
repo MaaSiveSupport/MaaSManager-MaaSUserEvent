@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459E35D6884A9610E0EA690F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B706417AE6FA89B1EDA0706 /* UIKit.framework */; };
+		4A1B28A3812A6428105ACA2D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812649897CC26F5FBC54D5FA /* Security.framework */; };
+		646A9E84945142CB242B03DA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CE98A3D922FAB82CBE0A59 /* MobileCoreServices.framework */; };
+		7EE22F9F0025CE000E0FA5E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4154AAAAF9E4C8F2D7A8B634 /* CoreGraphics.framework */; };
+		8700B1FED0C8A1448B6BE288 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BEA6941E7A80054CB0DB13 /* libsqlite3.0.dylib */; };
+		BA814F9EC4FC110197F5863C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF03E985A6C9077541F4723 /* SystemConfiguration.framework */; };
+		BCC6CC45F46288D0512F85C7 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7F9C1CE67943F1385A128D /* libz.1.2.3.dylib */; };
+		D3DF457FBF4B709AB91B5B2C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EBBB87274A10D7BBA5F221 /* CFNetwork.framework */; };
+		E25B389D140C43E50074B83D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25B389C140C43E50074B83D /* UIKit.framework */; };
+		E25B389F140C43E50074B83D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25B389E140C43E50074B83D /* Foundation.framework */; };
+		E25B38A1140C43E50074B83D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25B38A0140C43E50074B83D /* CoreGraphics.framework */; };
+		E25B38A7140C43E50074B83D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25B38A5140C43E50074B83D /* InfoPlist.strings */; };
+		E25B38A9140C43E50074B83D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25B38A8140C43E50074B83D /* main.m */; };
+		E25B38AD140C43E50074B83D /* MaaSManager_MaaSUserEventAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25B38AC140C43E50074B83D /* MaaSManager_MaaSUserEventAppDelegate.m */; };
+		E25B38B0140C43E50074B83D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25B38AE140C43E50074B83D /* MainWindow.xib */; };
+		E25B38C1140C45060074B83D /* MaaSManager+MaaSUserEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E25B38C0140C45060074B83D /* MaaSManager+MaaSUserEvent.m */; };
+		E25B38C4140C46C50074B83D /* MaaSUserEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E25B38C3140C46C50074B83D /* MaaSUserEvent.m */; };
+		F3EBFDBF9C5D920DA46FF64C /* MaaSive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21854E65E01C3E9849E1CF58 /* MaaSive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21854E65E01C3E9849E1CF58 /* MaaSive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MaaSive.framework; sourceTree = "<group>"; };
+		3B706417AE6FA89B1EDA0706 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4154AAAAF9E4C8F2D7A8B634 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55EBBB87274A10D7BBA5F221 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		812649897CC26F5FBC54D5FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		85BEA6941E7A80054CB0DB13 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		89CE98A3D922FAB82CBE0A59 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB7F9C1CE67943F1385A128D /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		E25B3898140C43E50074B83D /* MaaSManager+MaaSUserEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MaaSManager+MaaSUserEvent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25B389C140C43E50074B83D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E25B389E140C43E50074B83D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E25B38A0140C43E50074B83D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E25B38A4140C43E50074B83D /* MaaSManager+MaaSUserEvent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaaSManager+MaaSUserEvent-Info.plist"; sourceTree = "<group>"; };
+		E25B38A6140C43E50074B83D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E25B38A8140C43E50074B83D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E25B38AA140C43E50074B83D /* MaaSManager+MaaSUserEvent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaaSManager+MaaSUserEvent-Prefix.pch"; sourceTree = "<group>"; };
+		E25B38AB140C43E50074B83D /* MaaSManager_MaaSUserEventAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaaSManager_MaaSUserEventAppDelegate.h; sourceTree = "<group>"; };
+		E25B38AC140C43E50074B83D /* MaaSManager_MaaSUserEventAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaaSManager_MaaSUserEventAppDelegate.m; sourceTree = "<group>"; };
+		E25B38AF140C43E50074B83D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E25B38BF140C45060074B83D /* MaaSManager+MaaSUserEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MaaSManager+MaaSUserEvent.h"; sourceTree = "<group>"; };
+		E25B38C0140C45060074B83D /* MaaSManager+MaaSUserEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MaaSManager+MaaSUserEvent.m"; sourceTree = "<group>"; };
+		E25B38C2140C46C50074B83D /* MaaSUserEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaaSUserEvent.h; sourceTree = "<group>"; };
+		E25B38C3140C46C50074B83D /* MaaSUserEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaaSUserEvent.m; sourceTree = "<group>"; };
+		FBF03E985A6C9077541F4723 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25B3895140C43E50074B83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25B389D140C43E50074B83D /* UIKit.framework in Frameworks */,
+				E25B389F140C43E50074B83D /* Foundation.framework in Frameworks */,
+				E25B38A1140C43E50074B83D /* CoreGraphics.framework in Frameworks */,
+				F3EBFDBF9C5D920DA46FF64C /* MaaSive.framework in Frameworks */,
+				D3DF457FBF4B709AB91B5B2C /* CFNetwork.framework in Frameworks */,
+				BA814F9EC4FC110197F5863C /* SystemConfiguration.framework in Frameworks */,
+				4A1B28A3812A6428105ACA2D /* Security.framework in Frameworks */,
+				646A9E84945142CB242B03DA /* MobileCoreServices.framework in Frameworks */,
+				459E35D6884A9610E0EA690F /* UIKit.framework in Frameworks */,
+				7EE22F9F0025CE000E0FA5E3 /* CoreGraphics.framework in Frameworks */,
+				BCC6CC45F46288D0512F85C7 /* libz.1.2.3.dylib in Frameworks */,
+				8700B1FED0C8A1448B6BE288 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25B388D140C43E50074B83D = {
+			isa = PBXGroup;
+			children = (
+				E25B38A2140C43E50074B83D /* MaaSManager+MaaSUserEvent */,
+				E25B389B140C43E50074B83D /* Frameworks */,
+				E25B3899140C43E50074B83D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25B3899140C43E50074B83D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25B3898140C43E50074B83D /* MaaSManager+MaaSUserEvent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25B389B140C43E50074B83D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21854E65E01C3E9849E1CF58 /* MaaSive.framework */,
+				55EBBB87274A10D7BBA5F221 /* CFNetwork.framework */,
+				FBF03E985A6C9077541F4723 /* SystemConfiguration.framework */,
+				812649897CC26F5FBC54D5FA /* Security.framework */,
+				89CE98A3D922FAB82CBE0A59 /* MobileCoreServices.framework */,
+				3B706417AE6FA89B1EDA0706 /* UIKit.framework */,
+				4154AAAAF9E4C8F2D7A8B634 /* CoreGraphics.framework */,
+				CB7F9C1CE67943F1385A128D /* libz.1.2.3.dylib */,
+				85BEA6941E7A80054CB0DB13 /* libsqlite3.0.dylib */,
+				E25B389C140C43E50074B83D /* UIKit.framework */,
+				E25B389E140C43E50074B83D /* Foundation.framework */,
+				E25B38A0140C43E50074B83D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25B38A2140C43E50074B83D /* MaaSManager+MaaSUserEvent */ = {
+			isa = PBXGroup;
+			children = (
+				E25B38AB140C43E50074B83D /* MaaSManager_MaaSUserEventAppDelegate.h */,
+				E25B38AC140C43E50074B83D /* MaaSManager_MaaSUserEventAppDelegate.m */,
+				E25B38C5140C47400074B83D /* MaaSManager+MaaSUserEvent */,
+				E25B38AE140C43E50074B83D /* MainWindow.xib */,
+				E25B38A3140C43E50074B83D /* Supporting Files */,
+			);
+			path = "MaaSManager+MaaSUserEvent";
+			sourceTree = "<group>";
+		};
+		E25B38A3140C43E50074B83D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25B38A4140C43E50074B83D /* MaaSManager+MaaSUserEvent-Info.plist */,
+				E25B38A5140C43E50074B83D /* InfoPlist.strings */,
+				E25B38A8140C43E50074B83D /* main.m */,
+				E25B38AA140C43E50074B83D /* MaaSManager+MaaSUserEvent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E25B38C5140C47400074B83D /* MaaSManager+MaaSUserEvent */ = {
+			isa = PBXGroup;
+			children = (
+				E25B38BF140C45060074B83D /* MaaSManager+MaaSUserEvent.h */,
+				E25B38C0140C45060074B83D /* MaaSManager+MaaSUserEvent.m */,
+				E25B38C2140C46C50074B83D /* MaaSUserEvent.h */,
+				E25B38C3140C46C50074B83D /* MaaSUserEvent.m */,
+			);
+			name = "MaaSManager+MaaSUserEvent";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25B3897140C43E50074B83D /* MaaSManager+MaaSUserEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25B38B3140C43E50074B83D /* Build configuration list for PBXNativeTarget "MaaSManager+MaaSUserEvent" */;
+			buildPhases = (
+				E25B3894140C43E50074B83D /* Sources */,
+				E25B3895140C43E50074B83D /* Frameworks */,
+				E25B3896140C43E50074B83D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaaSManager+MaaSUserEvent";
+			productName = "MaaSManager+MaaSUserEvent";
+			productReference = E25B3898140C43E50074B83D /* MaaSManager+MaaSUserEvent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25B388F140C43E50074B83D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "ELC Technologies";
+			};
+			buildConfigurationList = E25B3892140C43E50074B83D /* Build configuration list for PBXProject "MaaSManager+MaaSUserEvent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E25B388D140C43E50074B83D;
+			productRefGroup = E25B3899140C43E50074B83D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25B3897140C43E50074B83D /* MaaSManager+MaaSUserEvent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25B3896140C43E50074B83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25B38A7140C43E50074B83D /* InfoPlist.strings in Resources */,
+				E25B38B0140C43E50074B83D /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25B3894140C43E50074B83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25B38A9140C43E50074B83D /* main.m in Sources */,
+				E25B38AD140C43E50074B83D /* MaaSManager_MaaSUserEventAppDelegate.m in Sources */,
+				E25B38C1140C45060074B83D /* MaaSManager+MaaSUserEvent.m in Sources */,
+				E25B38C4140C46C50074B83D /* MaaSUserEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E25B38A5140C43E50074B83D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25B38A6140C43E50074B83D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E25B38AE140C43E50074B83D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25B38AF140C43E50074B83D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25B38B1140C43E50074B83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E25B38B2140C43E50074B83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25B38B4140C43E50074B83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaaSManager+MaaSUserEvent/MaaSManager+MaaSUserEvent-Prefix.pch";
+				INFOPLIST_FILE = "MaaSManager+MaaSUserEvent/MaaSManager+MaaSUserEvent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E25B38B5140C43E50074B83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaaSManager+MaaSUserEvent/MaaSManager+MaaSUserEvent-Prefix.pch";
+				INFOPLIST_FILE = "MaaSManager+MaaSUserEvent/MaaSManager+MaaSUserEvent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25B3892140C43E50074B83D /* Build configuration list for PBXProject "MaaSManager+MaaSUserEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25B38B1140C43E50074B83D /* Debug */,
+				E25B38B2140C43E50074B83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25B38B3140C43E50074B83D /* Build configuration list for PBXNativeTarget "MaaSManager+MaaSUserEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25B38B4140C43E50074B83D /* Debug */,
+				E25B38B5140C43E50074B83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25B388F140C43E50074B83D /* Project object */;
+}
